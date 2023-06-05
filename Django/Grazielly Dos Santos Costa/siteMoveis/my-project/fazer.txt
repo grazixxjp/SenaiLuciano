@@ -1,0 +1,23 @@
+Carrinho - NavBar (de modo que ao sair do site e retornar a ele, o carrinho deve 
+permanecer com os itens previamente adicionados), além de 2 botões para 
+incrementar (“+”) e decrementar (“-”) a quantidade daquele produto
+
+- NavBar se o usuário estiver logado, deverá exibir na NavBar o seu nome.
+
+O ícone do carrinho deverá junto a ele exibir uma “flag” 
+com a quantidade de produtos no carrinho.
+
+DJANGO:
+
+Os produtos devem ser obtidos via API.
+
+Algumas rotas da API deverão ser protegidas, utilizando djoser e JWT
+
+Além disso, no rodapé dessa lista deverá ser exibido o valor total da compra, considerando o cálculo do 
+preço unitário X a quantidade de itens daquele produto.
+E ao lado do valor total, deve ter um botão “Realizar Pedido” que deverá realizar um POST na API para 
+registrar esse pedido. Após enviar a requisição, limpe o carrinho e exclua os dados da localStorage 
+referente ao carrinho
+
+Construa uma função que com base no token de refresh obtenha um novo token de acesso e salve-o na 
+localStorage

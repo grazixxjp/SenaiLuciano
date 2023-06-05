@@ -1,0 +1,7 @@
+fazer:
+
+relacionar tabele somar com tabela pedidos para somar o valor total
+
+models
+migration
+admin

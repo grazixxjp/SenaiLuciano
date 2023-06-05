@@ -1,0 +1,5 @@
+ 
+  return <className='rounded-xl w-2/5 inline-block ml-8 ' src="img/almofadaas.png" />;
+<Link to="/https://www.historiasdecasa.com.br/tag/apartamento-colorido-inspirado-por-luis-barragan/">
+     <img src={foofle} alt="google" className="flex items-center justify-evenly mt-6 h-7" />
+     </Link>
